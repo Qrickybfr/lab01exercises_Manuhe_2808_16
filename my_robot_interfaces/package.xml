@@ -4,7 +4,7 @@
   <name>my_robot_interfaces</name>
   <version>0.0.0</version>
   <description>My own message, service and action types for diffdrive_bot</description>
-  <maintainer email="manuhe.ugr-2808-16@aau.edu.et">your_name</maintainer>
+  <maintainer email="manuhe.ugr-2808-16@aau.edu.et">Manuhe Habtamu</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

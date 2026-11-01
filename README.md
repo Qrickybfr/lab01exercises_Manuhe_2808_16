@@ -1,9 +1,11 @@
 # Lab 1 Exercise: Programming diffdrive_bot
 
-**Course:** Introduction to Robotics and Intelligent Systems, BSc in Software Engineering, 2026
-**Student:** Manuhe Habtamu Mekonnen
-**ID:** UGR/2808/16
-**Platform:** ROS 2 Jazzy, Gazebo Harmonic, Ubuntu on WSL
+| **Field** | *Details* |
+|---|---|
+| **Course** | *Introduction to Robotics and Intelligent Systems, BSc in Software Engineering, 2026* |
+| **Student** | *Manuhe Habtamu Mekonnen* |
+| **ID** | *UGR/2808/16* |
+| **Platform** | *ROS 2 Jazzy, Gazebo Harmonic, Ubuntu on WSL* |
 
 In this exercise I extended the simulated differential-drive robot `diffdrive_bot` with two new sensors,
 a depth camera and an IMU, and then wrote my own ROS 2 packages that drive it. Each step adds one idea
