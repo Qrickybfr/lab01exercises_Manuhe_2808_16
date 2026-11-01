@@ -1,0 +1,7 @@
+# Drive straight forward for a given distance
+float32 distance    # m
+---
+float32 travelled   # m
+bool reached
+---
+float32 travelled   # m
