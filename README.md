@@ -228,11 +228,13 @@ and `/rotate` actions, both servers publish to `/cmd_vel`, and the chain `/scan`
   lidar, the camera and the depth camera at the same time. The rate is counted in real seconds, so a slow
   simulation publishes fewer messages per second. For the same reason a quarter turn takes much longer in
   real time than the 3 seconds it needs in simulated time.
-
 - **ROS 2 version.** The lab instructions are for Humble, but I use Jazzy, so I installed the Jazzy
   versions of the packages. The lab's files worked unchanged.
 - **Harmless Gazebo warnings.** Gazebo prints `gz_frame_id ... not defined in SDF` for every sensor. It
   copies the tag anyway, and the messages carry the right frame names.
+- **The square does not close exactly.** The robot ends 3.4 cm and 3.6 degrees away from its start. I
+  think each turn overshoots a little, because the loop stops only after the turned angle has passed the
+  goal (the four turns added up to 6.32 rad instead of 6.28), and the wheels slip a little on the floor.
 
 ## 7. Repository layout
 
